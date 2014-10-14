@@ -1,0 +1,24 @@
+body{
+	margin: 3%;
+}
+
+.win{
+	vertical-align: top;
+	display: inline-block;
+}
+
+@media (min-width: 50em){
+	.win{
+		width: 45%;
+	}
+}
+
+lable{
+	vertical-align: top;
+	min-width: 7em;
+	display: inline-block;
+}
+
+textarea[readonly]{
+	background: #eee;
+}
